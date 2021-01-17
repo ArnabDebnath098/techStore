@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
+.mainBody {
+  background-image: url("./assets/images/Cam-3_9d674cd0-c578-461d-95ab-d2fcacf3d9eb_1400x.png");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  margin: 0 auto;
+}
+.mainBody-container {
+  background-color: rgba(24, 24, 24, 0.685);
+  background-color: rgba(24, 24, 24, 0.685);
+  width: 580px;
+  height: 260px;
+  margin-top: 136px;
+  margin-left: 215px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.mainBody-container > h2 {
+  color: white;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.mainBody-container > p {
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  padding: -15px 20px;
+  text-align: center;
+}
+.mainBody-container > button {
+  background-color: white;
+  color: rgb(27, 27, 27);
+  padding: 15px 20px;
+  border-radius: 50px;
+  outline-width: 0;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  text-decoration: none;
+}

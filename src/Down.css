@@ -1,0 +1,152 @@
+.frontDoor {
+  background-image: url("./assets/images/Doorbell_1400x.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.frontDoor-container {
+  background-color: rgba(24, 24, 24, 0.685);
+  background-color: rgba(24, 24, 24, 0.685);
+  width: 580px;
+  height: 260px;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 175px;
+  top: 200px;
+}
+.frontDoor-container > button {
+  border: 1px solid rgb(255, 255, 255);
+  outline-width: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+}
+.warning {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+.warning-right {
+  background-image: url("./assets/images/camssss_600x.png");
+  background-position: center;
+  background-size: cover;
+  width: 572px;
+  height: 572px;
+}
+.warning-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 435px;
+}
+.warning-left > button {
+  border: 1px solid black;
+  outline-width: 0;
+  background-color: white;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+.warning-left > h1 {
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: 300;
+}
+.warning-left > p {
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+.notified {
+  background-image: url("./assets/images/191021_145315_banner_floodlight_1400x.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+.notified-container {
+  background-color: rgba(24, 24, 24, 0.685);
+  background-color: rgba(24, 24, 24, 0.685);
+  width: 580px;
+  height: 232px;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 620px;
+  top: 119px;
+}
+.notified-container > button {
+  border: 1px solid rgb(255, 255, 255);
+  outline-width: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  padding: 12px 20px;
+  color: white;
+  margin-top: 25px;
+  text-decoration: none;
+}
+.review {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.review > hr {
+  width: 10%;
+}
+.signUp {
+  background-color: #464f6b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mail {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.signUp > h3 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+.signUp > p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 30px;
+  font-weight: 300;
+}
+.mail > input {
+  outline-width: 0;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 15px;
+  padding: 12px;
+  margin-right: 20px;
+  width: 300px;
+}
+.mail > button {
+  color: white;
+  background-color: #e5525b;
+  border-radius: 50px;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  outline-width: 0;
+  border: none;
+  text-decoration: none;
+}

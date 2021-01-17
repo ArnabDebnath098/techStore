@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px 70px;
+}
+.footerTop-logo > img {
+  height: 75px;
+  width: 210px;
+  margin-bottom: 30px;
+}
+.footerTop {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.footerTop-goal {
+  width: 280px;
+  font-size: 15px;
+}
+.footerTop-policy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footerTop-policy > h3 {
+  margin-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.footerTop-policy > a {
+  margin-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+.footerTop-customer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footerTop-customer > h3 {
+  margin-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.footerTop-customer > a {
+  margin-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+.footerTop-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer > hr {
+  width: 100%;
+}

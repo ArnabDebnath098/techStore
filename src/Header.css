@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
+.headerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #e5525b;
+  font-family: "Poppins", sans-serif;
+  height: 40px;
+}
+.headerTop-left {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-evenly;
+}
+.headerTop-right {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-evenly;
+}
+.menubutton {
+  font-size: 15px !important;
+  color: white !important;
+}
+.icon {
+  color: white !important;
+  font-size: 20px !important;
+}
+.login > p {
+  display: flex;
+  align-items: center;
+}
+.header__rightBasket {
+  display: flex;
+  align-items: center;
+}
+.headerDown {
+  display: flex;
+  align-items: center;
+  height: 89px;
+  padding: 0 20px;
+  font-family: "Poppins", sans-serif;
+}
+.headerDown-left > img {
+  height: 56px;
+  margin: 20px;
+}
+.headerDown-right {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  margin-left: 214px;
+}
+.headerDown-right > p {
+  margin-right: 15px;
+  font-weight: 300;
+}
+.headerDown-right > p:hover {
+  color: rgb(245, 59, 59);
+}
